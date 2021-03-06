@@ -85,7 +85,8 @@ p{
     .container-1{
       width: 90vw;
       min-height: 90vh;
-    grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns:1fr;
+        grid-template-rows:1fr 1.4fr .3fr;
       
     }
 
